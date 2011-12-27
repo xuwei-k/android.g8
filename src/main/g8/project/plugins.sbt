@@ -1,3 +1,3 @@
 resolvers += ScalaToolsSnapshots
 
-addSbtPlugin("org.scala-tools.sbt" % "sbt-android-plugin" % "0.6.1-SNAPSHOT")
+addSbtPlugin("org.scala-tools.sbt" % "sbt-android-plugin" % "$android_plugin_version$")
