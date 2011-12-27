@@ -1,6 +1,6 @@
 # Android sbt project giter8 template
 
 ```
-g8 xuwei-k/android.g8
+g8 xuwei-k/android
 ```
 
