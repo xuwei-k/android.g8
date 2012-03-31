@@ -1,3 +1,4 @@
-resolvers += ScalaToolsSnapshots
+resolvers += Resolver.url("scalasbt releases", url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"))(Resolver.ivyStylePatterns)
 
-addSbtPlugin("org.scala-tools.sbt" % "sbt-android-plugin" % "$android_plugin_version$")
+addSbtPlugin("org.scala-sbt" % "sbt-android-plugin" % "$android_plugin_version$")
+
