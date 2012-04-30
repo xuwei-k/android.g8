@@ -6,9 +6,7 @@ scalaVersion := "$scala_version$"
 
 platformName in Android := "android-$api_level$"
 
-seq(
-  {AndroidProject.androidSettings ++ TypedResources.settings ++ AndroidMarketPublish.settings}:_*
-)
+AndroidProject.androidSettings ++ TypedResources.settings ++ AndroidMarketPublish.settings
 
 keyalias in Android := "$key_alias$"
 
